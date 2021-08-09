@@ -68,7 +68,7 @@ def topology():
     sleep(3)
     ap1.cmd('ifconfig edge1-eth2 10.0.0.201')
     ap2.cmd('ifconfig edge2-eth2 10.0.0.202')
-    ap3.cmd('ifconfig edge3-eth2 10.0.0.203'
+    ap3.cmd('ifconfig edge3-eth2 10.0.0.203')
     ap4.cmd('ifconfig edge4-eth2 10.0.0.204')
     ap5.cmd('ifconfig edge5-eth2 10.0.0.205')
     ap6.cmd('ifconfig edge6-eth2 10.0.0.206')
